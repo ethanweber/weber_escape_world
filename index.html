@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="custom.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+
+  <body>
+    <div class="overlay" id="overlay_id" onclick="removeLock()">
+      <h1 class="pulsate">Click to Unlock</h1>
+    </div>
+    <div class="actual_content" id="actual_id">
+      <h1 class="pulsate">The Weber Escape Map</h1>
+      <div id="map"></div>
+    </div>
+  </body>
+
+  <script src="map.js"></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL_l2shgEr3HKXOvKOOHuET7ToNDAyz9w">
+  </script>
+</html>

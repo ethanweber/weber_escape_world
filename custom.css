@@ -1,0 +1,65 @@
+html {
+  margin: auto;
+  text-align: center;
+  background-color: black;
+}
+
+.actual_content {
+  background-image: url("black_background.jpeg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  visibility: hidden;
+}
+
+.custom {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#content {
+  font-size: 30px;
+}
+
+h1 {
+  padding: 10px;
+  color: white;
+  font-size: 50px;
+}
+
+#header {
+  font-weight: bold;
+}
+
+#map {
+  height: 750px;
+  width: 100%;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("lock_background.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  z-index: 10;
+}
