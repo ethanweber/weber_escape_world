@@ -142,10 +142,9 @@ function initMap() {
 
   for (var i = 0; i < info.length; i++) {
     console.log(info[i]['Date']);
-    var html_string = "<div id=\"content\">" + "<span id=\"header\">Location:</span> " + info[i]['Title']
+    var html_string = "<div id=\"content\">" + "<span id=\"header\">Location:</span> " + info[i]['Location']
     + "<br><span id=\"header\">Room:</span> " + info[i]['Room']
     + "<br><span id=\"header\">Business:</span> " + info[i]['Business']
-    + "<br><span id=\"header\">Location:</span> " + info[i]['Location']
     + "<br><span id=\"header\">People:</span> " + info[i]['People']
     + "<br><span id=\"header\">Date:</span> " + info[i]['Date']
     + "</div>";
