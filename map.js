@@ -8,11 +8,11 @@ function load_from_spreadsheet() {
   $.ajax({
       type: "GET",
       // url: 'https://crossorigin.me/https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
-      // url: 'https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
-      url: 'http://cors.io/?u=https://github.com/ethanjohnweber/ethanjohnweber.github.io/blob/master/csv_sheet.csv',
+      url: 'https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
+      // url: 'http://cors.io/?u=https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
       // dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
-      // async:true,
-      // crossDomain:true,
+      async:true,
+      crossDomain:true,
       // dataType: "jsonp",
       success: function(data, status, xhr) {
           // alert(data);
