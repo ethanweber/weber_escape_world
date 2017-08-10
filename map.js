@@ -9,7 +9,7 @@ function load_from_spreadsheet() {
       type: "GET",
       // url: 'https://crossorigin.me/https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
       // url: 'https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
-      url: 'https://github.com/ethanjohnweber/ethanjohnweber.github.io/blob/master/csv_sheet.csv',
+      url: 'http://cors.io/?u=https://github.com/ethanjohnweber/ethanjohnweber.github.io/blob/master/csv_sheet.csv',
       // dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
       // async:true,
       // crossDomain:true,
