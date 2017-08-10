@@ -11,6 +11,7 @@ function load_from_spreadsheet() {
       url: 'https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
       // url: 'http://cors.io/?u=https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
       // dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
+      dataType: 'jsonp',
       async:true,
       crossDomain:true,
       // dataType: "jsonp",
