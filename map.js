@@ -13,9 +13,6 @@ function load_from_spreadsheet() {
       // dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
       // async:true,
       // crossDomain:true,
-      data: {
-        address: 'http://www.google.com'
-      },
       // dataType: "jsonp",
       success: function(data, status, xhr) {
           // alert(data);
