@@ -41,8 +41,8 @@ function load_from_spreadsheet() {
           console.log(info);
 
           initMap();
-
-      }
+      },
+      beforeSend: setHeader
   });
 }
 
