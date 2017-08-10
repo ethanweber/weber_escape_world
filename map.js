@@ -9,8 +9,13 @@ function load_from_spreadsheet() {
       type: "GET",
       // url: 'https://crossorigin.me/https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
       url: 'https://docs.google.com/spreadsheets/d/1HCFLANKyy4zEaFinmDFI0tTmK-sdJPzZJAH4AniBnjo/pub?output=csv',
-      async:true,
-      crossDomain:true,
+      // dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
+      // async:true,
+      // crossDomain:true,
+      data: {
+        address: 'http://www.google.com'
+      },
+      // dataType: "jsonp",
       success: function(data, status, xhr) {
           // alert(data);
           var my_data = data;
